@@ -1,0 +1,5 @@
+working directory - staging area - local repo - remote repo
+Master git        - git add      - git commit - git push
+
+changes control 
+version control
