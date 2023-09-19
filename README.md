@@ -2,8 +2,7 @@
 
 ## GIT Commands
 ### SETUP
-#### Configuring user information used across all local repositories
-
+#### Configuring user information used across all local repositories.
 > Set a name that is  identifiable for credit when review version history 
 ```
 git config --global user.name "[firstname lastname]" 
@@ -16,14 +15,34 @@ git config --global user.email "[valid-email@mail.com]"
 ```
 git config --global color.ui auto 
 ```
-
+> Show GIT user name and email
 ```
-git init -> Initializes Git and enables local folders to execute git commands.
-git remote --v -> shows the url repo, shows nothing if there's no remote url. 
-git remote add  origin REPOSITORY_URL -> Associate a remote repository with local Git repository
-
+git config user.name
+git config user.email
 ```
 
+### INIT
+#### Configuring user information, initializing and cloning repositories
+> Initialize an existing directory as a Git repository and enables local folders to execute git commands.
+```
+git init
+```
+> Retrieve an entire repository from a hosted location via URL
+
+```
+git clone [url]
+```
+
+> Shows the url repo, shows nothing if there's no remote url.
+```
+git remote --v 
+```
+> Associate a remote repository with local Git repository
+``` 
+git remote add  origin REPOSITORY_URL
+
+```
+### STAGE 
 ```
 git add .
 git commit -m'message'
@@ -64,7 +83,7 @@ h1{
 ### Todo: 
 1. Add all commands according to their tasks
 2. Add an image
-3. List 3
+3. SSH Key
 
 - Unordered 1
 - Unordered 2
@@ -72,3 +91,7 @@ h1{
    - Sub 2
      - Sub 2.1
 - Unordered 3
+ 
+<p style='color:red'>This is some red text.</p>
+<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
