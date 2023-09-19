@@ -1,6 +1,29 @@
 # [Master Git and Github - Beginner to Expert](udemy.com/course/git-and-github-for-absolute-beginners/)
 
 ## GIT Commands
+### SETUP
+#### Configuring user information used across all local repositories
+
+> Set a name that is  identifiable for credit when review version history 
+```
+git config --global user.name "[firstname lastname]" 
+```
+> Set an email address that will be associated with each history marker
+```
+git config --global user.email "[valid-email@mail.com]" 
+```
+> Set automatic command line coloring for Git for easy reviewing
+```
+git config --global color.ui auto 
+```
+
+```
+git init -> Initializes Git and enables local folders to execute git commands.
+git remote --v -> shows the url repo, shows nothing if there's no remote url. 
+git remote add  origin REPOSITORY_URL -> Associate a remote repository with local Git repository
+
+```
+
 ```
 git add .
 git commit -m'message'
