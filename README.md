@@ -40,19 +40,38 @@ git remote --v
 > Associate a remote repository with local Git repository
 ``` 
 git remote add  origin REPOSITORY_URL
-
 ```
 ### STAGE 
 ```
 git add .
 git commit -m'message'
 git push
-git log
-git log --oneline
+
 git status
+
+git reset --soft HEAD^ can go back to the staging area
+git reset HEAD^ can go back to the working directory
+git reset --hard HEAD^ delete all the changes that you made
+
+```
+### GIT Version Control 
+
+> git log shows all the commits including author, date, commit and commit id
+
+```
+git log 
+```
+> git log --oneline shows all the commits including only commit and commit id
+```
+git log --oneline
+```
+> git checkout commit_id switches to the branch specified by the commit id
+```
 git checkout commit_id
-
-
+```
+> When we switch to other branches, git log will not show all logs from a non master branch. git checkout master switches to the master branch or the last committed branch and we can find all the commits by using git log
+```
+git checkout master
 ```
 
 `.gitignore file is used to skip files while sending to remote repo from local repo `
