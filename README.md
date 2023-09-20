@@ -39,13 +39,18 @@ git remote --v
 ```
 > Associate a remote repository with local Git repository
 ``` 
-git remote add  origin REPOSITORY_URL
+git remote add origin REPOSITORY_URL
 ```
+> git push -u origin master/main is used to push/ upload all the codes to the remote repository from local repository
+```
+git push -u origin master/main
+```
+
+
 ### STAGE 
 ```
 git add .
 git commit -m'message'
-git push
 
 git status
 
@@ -72,6 +77,29 @@ git checkout commit_id
 > When we switch to other branches, git log will not show all logs from a non master branch. git checkout master switches to the master branch or the last committed branch and we can find all the commits by using git log
 ```
 git checkout master
+```
+> The git show command is used in Git to display detailed information about a specific commit. If not specified, it shows the details of the last commit. git show HEAD does the same thing though.
+```
+git show commit_id
+```
+> GIT Workflow
+<img src="./git.png" />
+
+
+```
+git pull
+```
+### SSH Keygen
+> SSH 
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+> a pub file will generate in specified directory and then we need to use this key in GitHub SSK Keys from the setting remotely
+
+> Using a SSH key we can securely clone repositories by using the following command. Now you need to provide password to clone the repo.
+```
+git clone ssh_link
 ```
 
 `.gitignore file is used to skip files while sending to remote repo from local repo `
