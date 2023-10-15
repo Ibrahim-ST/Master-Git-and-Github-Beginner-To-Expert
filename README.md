@@ -174,18 +174,17 @@ https://git-school.github.io/visualizing-git/
 
 <img src="./three-way.png" />
 
+#### Merge Conflict
+
+<img src="./Merge Conflict.png" />
+<img src="./Resolve Conflict.png" />
 
 ## 2 spaces after the end of the backtick creates new line for next 
 `git add .`  
 `git commit -m`  
 `git push`
 
-## We can write in multiline using 3 backticks 
-```
-git add .
-git commit -m"message"
-git push
-```
+
 ## We can write html and CSS here
 ```html
 <h1>HTML Element </h2>
