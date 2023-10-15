@@ -101,8 +101,39 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 git clone ssh_link
 ```
-
+### Git Ignore and Readme
 `.gitignore file is used to skip files while sending to remote repo from local repo `
+
+### Git Branching and Merging
+> Branches allow to work on different parts of a project without impacting the main branch. If we want to fix a bug, then creating a branch and fixing the bug here will not affect the main branch.
+
+> git branch shows all the branches that we have in a repository. asterisk(*) denotes the current/active branch 
+```
+git branch
+```
+> git branch -r shows all the remote branches that we have in a repository
+```
+git branch -r
+```
+> git branch -a shows all branches including remote and local that we have in a repository
+```
+git branch -a
+```
+
+> git branch branch_name creates a new branch according to the given name
+```
+git branch feature1
+```
+> git checkout feature1 switches to feature1 branch from master/current branch. And feature1 has all the files of master branch after switching. So basically its a copy of master branch
+```
+git checkout feature1
+```
+
+
+
+
+
+
 
 ## 2 spaces after the end of the backtick creates new line for next 
 `git add .`  
