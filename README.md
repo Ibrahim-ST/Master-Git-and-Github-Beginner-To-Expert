@@ -147,11 +147,32 @@ git branch -d feature1
 ```
 
 
+> git push -u origin feature2 pushes the branch along with the files in remote repository. Then we can create pull request from github and merge pull request to merge the files from feature2 branch. 
+```
+git push -u origin branch_name
+```
+`NOTE: If we merge this way, we need to pull from local repository before we add new files to get the updated files. We can do this by git pull command. It is better to use git pull before starting to work in group projects cause others might add new codes from different branches.`
+```
+git pull
+```
+
+#### Two way merge / fast forward merge
+`If we commit multiple times in a branch then while merge it from the master branch it performs a fast forwarded merge. The command is ordinary merge command: git merge branch_name`
+
+`NOTE: In two way merge there will be no extra commit after merging. But in three way merge there will be an extra commit while merging.`
+
+<img src="./two-way.png" />
+
+> For the visualization: 
+```
+https://git-school.github.io/visualizing-git/
+```
 
 
+#### Three way merge 
+`When we create a branch and do a few commits and our project partner also commits in the master branch at the same time, then this kind of situation(three way) happens. In this situation we can merge from the master branch and this time merging will create a automatic commit`
 
-
-
+<img src="./three-way.png" />
 
 
 ## 2 spaces after the end of the backtick creates new line for next 
