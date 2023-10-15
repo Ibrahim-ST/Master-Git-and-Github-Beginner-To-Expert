@@ -120,14 +120,33 @@ git branch -r
 git branch -a
 ```
 
-> git branch branch_name creates a new branch according to the given name
+> git branch branch_name creates a new branch according to the given name. git branch feature1 creates a new branch called feature1.
 ```
-git branch feature1
+git branch branch_name
 ```
-> git checkout feature1 switches to feature1 branch from master/current branch. And feature1 has all the files of master branch after switching. So basically its a copy of master branch
+> git checkout feature1 switches to feature1 branch from master/current branch. And feature1 has all the files of master branch after switching. So basically its a copy of master branch.  
+> git checkout -b branch_name creates a new branch and switches into in it in one command.
 ```
-git checkout feature1
+git checkout branch_name
+git checkout -b branch_name
 ```
+
+`NOTE: After switching to a non master branch, we can add new tasks and then commit it and switch back to master branch where we will not find the new added tasks from feature1 branch until we merge from the master branch.`
+
+> git merge feature1 command will merge the new tasks that has been added in feature1 branch to the master branch.
+```
+git merge branch_name
+```
+`
+NOTE: Before merging we need to switch to master branch first`
+
+#### Delete a Branch
+> git branch -d feature1 is used to DELETE the branch when its not necessary anymore as it has been merged already
+```
+git branch -d feature1
+```
+
+
 
 
 
