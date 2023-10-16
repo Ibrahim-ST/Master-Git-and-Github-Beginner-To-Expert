@@ -1,2 +1,2 @@
 i am test2 file and i am from feature1 branch
-I am changes from the master branch
+I am the change from the feature4 branch
