@@ -101,8 +101,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 git clone ssh_link
 ```
-### Git Ignore and Readme
-`.gitignore file is used to skip files while sending to remote repo from local repo `
 
 ### Git Branching and Merging
 > Branches allow to work on different parts of a project without impacting the main branch. If we want to fix a bug, then creating a branch and fixing the bug here will not affect the main branch.
@@ -181,13 +179,19 @@ https://git-school.github.io/visualizing-git/
 
 <img src="./Resolve Conflict.png" />
 
-## 2 spaces after the end of the backtick creates new line for next 
+
+###  Git Ignore and Readme
+`.gitignore file is used to skip files while sending to remote repo from local repo `
+
+#### Readme
+> 2 spaces after the end of the backtick creates new line for next 
+
 `git add .`  
 `git commit -m`  
 `git push`
 
 
-## We can write html and CSS here
+#### We can write html and CSS here
 ```html
 <h1>HTML Element </h2>
 ```
@@ -198,8 +202,8 @@ h1{
 }
 ```
 
-## We can create ordered and unordered list here
-### Todo: 
+#### We can create ordered and unordered list here
+#### Todo: 
 1. Add all commands according to their tasks
 2. Add an image
 3. SSH Key
