@@ -1,3 +1,3 @@
 i am test2 file and i am from feature1 branch
 I am the change from the feature4 branch
-Another change from master branch
+One more commit from feature4 branch
