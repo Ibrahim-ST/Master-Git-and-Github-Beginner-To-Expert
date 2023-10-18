@@ -1,2 +1,3 @@
 Hello i am Ibrahim and i was created from feature2 branch by 
 git checkout -b feature2 command
+hello i am line3 from feture4 branch
