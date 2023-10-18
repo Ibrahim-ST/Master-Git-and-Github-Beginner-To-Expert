@@ -146,7 +146,8 @@ git show commit_id
 ```
 
 > GIT Workflow
-> <img src="./git.png" />
+
+<img src="./git.png" />
 
 #### Difference between git pull and git fetch
 
@@ -262,7 +263,9 @@ git pull
 
 `NOTE: In two way merge there will be no extra commit after merging. But in three way merge there will be an extra commit while merging.`
 
+
 <img src="./two-way.png" />
+
 
 > For the visualization:
 
@@ -296,18 +299,33 @@ https://git-school.github.io/visualizing-git/
 ```
 fork repo - clone - add/update - push to remote - contribute - open pull request - create
 ```
+<img src="./Contribution-1.png" />
+<img src="./Contribution-2.png" />
+
 #### Collaboration
 
----
+>  Collaboration does not require forking. Under the repository, setting can be found where Collaboration option exists. We can add people(invite) from here. And they need to accept the invitation. Now they can clone the project and can change and push to remote. They can directly push if we don't set any branch protection rules from Branches section. To do so, we can mark Require a pull request before merging option and create a rule. Now the codes of collaborator will not directly merge and hence require a pull request. 
 
-<div class="line"></div>
+
+#### GitHub Pages
+
+>GitHub Pages is a free hosting service provided by GitHub that allows you to publish and share static web content, such as HTML, CSS, and JavaScript, directly from your GitHub repositories. It's commonly used to host project documentation, personal websites, blogs, and other web content associated with your GitHub repositories.
+
+```
+repository setting - pages - select master branch - save - wait a few minutes.
+```
+---
+ 
+
+
 ### Git Ignore and Readme
 
 `.gitignore file is used to skip files while sending to remote repo from local repo `
 
 #### Readme
+> The followings are some readme operations: 
 
-> 2 spaces after the end of the backtick creates new line for next
+` 2 spaces after the end of the backtick creates new line for next`
 
 `git add .`  
 `git commit -m`  
@@ -330,7 +348,7 @@ h1 {
 #### Todo:
 
 1. Add all commands according to their tasks
-2. Add an image
+2. Add an image of workflow
 3. SSH Key
 
 - Unordered 1
@@ -340,6 +358,4 @@ h1 {
     - Sub 2.1
 - Unordered 3
 
-<p style='color:red'>This is some red text.</p>
-<font color="red">This is some text!</font>
-These are <b style='color:red'>red words</b>.
+<p> These are <b style='color:red'>red words</b>. </p>
