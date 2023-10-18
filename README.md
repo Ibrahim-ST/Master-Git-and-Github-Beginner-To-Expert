@@ -176,6 +176,7 @@ https://git-school.github.io/visualizing-git/
 > Scenario:  Master branch has a story.txt file which contains 2 lines of code. Then we have switched to feature branch. Now feature branch has the same code as master branch. In this branch, 3rd line has been added. Then switched to master branch. In master branch, we have added another 3rd line before merging the feature branch with master branch. THIS CAUSES MERGE CONFLICT. Now we need to resolve conflict first.
 <img src="./Merge Conflict.png" />
 
+> Merge conflict can be resolved by vs code or manually removing the code. Accepting current changes adds the changes of master branch as we merge from this branch. Accepting incoming changes adds the changes from another branches.
 
 <img src="./Resolve Conflict.png" />
 
