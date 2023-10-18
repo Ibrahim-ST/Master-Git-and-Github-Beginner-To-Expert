@@ -176,9 +176,22 @@ https://git-school.github.io/visualizing-git/
 > Scenario:  Master branch has a story.txt file which contains 2 lines of code. Then we have switched to feature branch. Now feature branch has the same code as master branch. In this branch, 3rd line has been added. Then switched to master branch. In master branch, we have added another 3rd line before merging the feature branch with master branch. THIS CAUSES MERGE CONFLICT. Now we need to resolve conflict first.
 <img src="./Merge Conflict.png" />
 
-> Merge conflict can be resolved by vs code or manually removing the code. Accepting current changes adds the changes of master branch as we merge from this branch. Accepting incoming changes adds the changes from another branches.
+> Merge conflict can be resolved by vs code or manually from GitHub by removing the code. Accepting current changes adds the changes of master branch as we merge from this branch. Accepting incoming changes adds the changes from another branches.
 
 <img src="./Resolve Conflict.png" />
+
+
+
+
+#### Difference between git pull and git fetch
+ > "Pull" and "fetch" are also terms commonly used in the context of version control systems like Git. They involve getting changes from a remote repository to your local machine, but they work slightly differently:
+
+> Fetch: 
+When you fetch, you're retrieving changes from a remote repository and bringing them to your local repository. These changes are not automatically merged with your local working branch. Fetching is a safe operation, as it doesn't alter your local working branch in any way. It allows you to see what changes have been made in the remote repository without integrating them into your current work.
+
+> Pull:
+When you pull, you are essentially fetching the changes from a remote repository and merging them into your current working branch in a single step.
+A pull will update your local working branch with the changes from the remote repository and potentially merge them with your local changes.
 
 
 ###  Git Ignore and Readme
