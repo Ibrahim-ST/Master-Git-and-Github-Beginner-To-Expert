@@ -1,5 +1,5 @@
 
-# [Master Git and Github - Beginner to Expert](udemy.com/course/git-and-github-for-absolute-beginners/)
+# [Master Git and Github - Beginner to Expert](https://www.udemy.com/course/git-and-github-for-absolute-beginners/)
 
 ## GIT Commands
 
