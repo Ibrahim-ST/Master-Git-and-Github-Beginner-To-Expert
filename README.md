@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
 
 # [Master Git and Github - Beginner to Expert](udemy.com/course/git-and-github-for-absolute-beginners/)
 
@@ -304,7 +298,7 @@ fork repo - clone - add/update - push to remote - contribute - open pull request
 ```
 #### Collaboration
 
-
+---
 
 <div class="line"></div>
 ### Git Ignore and Readme
@@ -349,6 +343,3 @@ h1 {
 <p style='color:red'>This is some red text.</p>
 <font color="red">This is some text!</font>
 These are <b style='color:red'>red words</b>.
-
-</body>
-</html>
